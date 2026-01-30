@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Sharing App</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <button class="admin-button" onclick="location.href='index.html'">Admin Login</button>
+    </div>
+    
+    <div class="hero-image">
+        <div class="hero-overlay"></div>
+        <div class="hero-text">Welcome to the Recipe Sharing App</div>
+        <div class="hero-subtext">Discover and share your favorite recipes!</div>
+    </div>
+    <div class="carousel-container">
+        <div class="carousel-content">
+            <div class="carousel-item"><img src="images/recipe_006.jpg" alt="Item 1"></div>
+            <div class="carousel-item"><img src="images/recipe_003.jpg" alt="Item 2"></div>
+            <div class="carousel-item"><img src="images/recipe_004.jpg" alt="Item 3"></div>
+            <div class="carousel-item"><img src="images/recipe_005.jpg" alt="Item 4"></div>
+            <div class="carousel-item"><img src="images/recipe_001.jpg" alt="Item 5"></div>
+        </div>
+    </div>
+    <div class="recipes-section">
+        <h2>Recipes</h2>
+        
+        <div class="search-bar" style="margin-bottom: 20px; text-align: center;">
+            <input type="text" id="search-box" placeholder="Search by category..." style="padding: 10px; width: 300px;">
+            <button onclick="filterRecipes()">Search</button>
+        </div>
+
+        <table id="recipes-table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Ingredients</th>
+                    <th>Instructions</th>
+                    <th>Cooking Time</th>
+                    <th>Serving Size</th>
+                </tr>
+            </thead>
+            <tbody id="recipes-tbody">
+                <!-- Recipes will be inserted here dynamically via app.js -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
