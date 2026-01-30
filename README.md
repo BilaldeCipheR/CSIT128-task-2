@@ -129,11 +129,6 @@ The application uses a MySQL database with two main tables:
 - Protected admin routes
 - Environment variable configuration for sensitive data
 
-## Contributing
-
-This project is part of an academic assignment. Please follow the coding standards and maintain the existing project structure when making contributions.
-
-## License
 
 This project is for educational purposes as part of Assignment 2 for CSIT128.
 
