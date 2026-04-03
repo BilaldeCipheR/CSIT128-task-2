@@ -123,12 +123,6 @@ The application uses a MySQL database with two main tables:
 - `GET /logout` - Logout and destroy session
 - `GET /homepage.html` - User recipe browsing interface
 
-## Security Features
-
-- Session-based authentication
-- Protected admin routes
-- Environment variable configuration for sensitive data
-
 
 This project is for educational purposes as part of Assignment 2 for CSIT128.
 
